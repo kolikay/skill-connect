@@ -17,7 +17,7 @@ from rest_framework.views import APIView
 
 
 def index(request):
-    return HttpResponse('Hello World')
+    return HttpResponse('Hello World!!!')
 
 
 #Displayes all users in the database
