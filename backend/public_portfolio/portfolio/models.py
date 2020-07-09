@@ -3,7 +3,7 @@ from django.db import models
 
 
 class UserProfile(models.Model):
-    name        = models.CharField(max_length=122, null=False, blank=False)
+    name        = models.CharField(max_length=122, null=False, blank=False )
     age         = models.IntegerField(default=2, null=True, blank=True)
     email       = models.EmailField(unique=True, null=False, blank=False)
     phone       = models.CharField(max_length=11, null=True, blank=True)
