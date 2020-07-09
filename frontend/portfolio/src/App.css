@@ -1,0 +1,127 @@
+/* navbar page */
+
+.navbar{
+    border-radius: 0%;
+    background-color: black !important;
+}
+
+
+.logo {
+    height: 50px;
+}
+
+
+/* profile page */
+
+.profile-top{
+    background-image: url(https://i.imgur.com/iFFBKSTl.jpg);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: rgb(148, 132, 39);
+    text-align: center;
+    padding-top: 15%;
+    color: rgb(255, 233, 110);
+}
+
+
+.homepage{
+  
+    background-image: url("https://i.imgur.com/AT2QCdh.jpg");
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 0%;
+    border: 0%;
+    border-bottom: 0ch;
+    opacity: 90%; 
+   
+     
+}
+.homepage h2{
+    color:rgb(226, 197, 29);
+    padding-top: 20%;
+    font-family: cursive;
+}
+.homepage h4{
+    color:white;
+    font-family: cursive;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border: rgb(226, 197, 29);
+    background-color:inherit;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(226, 197, 29);
+    text-align: center;
+    padding-top: 10px; 
+    font-family: cursive;
+    
+}
+
+.btn:hover{
+    background-color: rgb(226, 197, 29);
+    color: white;
+    
+
+}
+
+
+/* homepage detail style */
+
+.dev-pix{
+    height: 300px;
+    width: 600px;
+    background-image: url(https://imgur.com/BcrB3KO.jpg);
+    background-position: center;
+    transition: 3s;
+    transition-delay: 1s;
+
+}
+@media screen and (max-width: 900px) {
+    .dev-pix {
+        height: 300px;
+        width: 600px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .dev-pix {
+        height: 200px;
+        width: 360px;
+        margin-bottom: 10px;
+    }
+}
+
+.dev-pix:hover{
+    opacity: 70%;
+    background-image: url(https://i.imgur.com/yhDgaDg.jpg); 
+}
+
+/* users */
+
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+users{
+    background-color: aqua;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border:0px ;
+    margin: 20px; 
+    flex-basis: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.idletimer{
+   display: flex;
+   justify-content: space-around;
+}
